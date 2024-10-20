@@ -24,7 +24,7 @@ family = "IBM Plex Mono"
 style = "italic"
 
 [font.normal]
-family = "IB Plex Mono"
+family = "IBM Plex Mono"
 style = "regular"
 
 [[keyboard.bindings]]
