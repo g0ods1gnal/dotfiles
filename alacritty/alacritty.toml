@@ -45,7 +45,7 @@ shape = "Underline"
 TERM = "alacritty"
 
 [font]
-size = 9
+size = 11
 
 [font.bold]
 family = "Terminus"
