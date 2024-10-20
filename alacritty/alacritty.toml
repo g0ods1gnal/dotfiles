@@ -1,50 +1,48 @@
 live_config_reload = true
 working_directory = "None"
 
-# Default colors
 [colors.primary]
-background = '#282726'
-foreground = '#FFFCF0'
-dim_foreground = '#FFFCF0'
-bright_foreground = '#FFFCF0'
+foreground = '#e3e3e3'
+bright_foreground = '#ffffff'
+background = '#1f1f1f'
 
-# Cursor colors
 [colors.cursor]
-text = '#FFFCF0'
-cursor = '#FFFCF0'
+text = '#191622'
+cursor = '#f8f8f2'
 
-# Normal colors
+[colors.search]
+matches = { foreground = '#b2b2b2', background = '#b26818' }
+focused_match = { foreground = "CellBackground", background = "CellForeground" }
+
 [colors.normal]
-black = '#100F0F'
-red = '#AF3029'
-green = '#66800B'
-yellow = '#AD8301'
-blue = '#205EA6'
-magenta = '#A02F6F'
-cyan = '#24837B'
-white = '#FFFCF0'
+black   = '#000000'
+red     = '#b21818'
+green   = '#18b218'
+yellow  = '#b26818'
+blue    = '#1818b2'
+magenta = '#b218b2'
+cyan    = '#18b2b2'
+white   = '#b2b2b2'
 
-# Bright colors
 [colors.bright]
-black = '#100F0F'
-red = '#D14D41'
-green = '#879A39'
-yellow = '#D0A215'
-blue = '#4385BE'
-magenta = '#CE5D97'
-cyan = '#3AA99F'
-white = '#FFFCF0'
+black   = '#686868'
+red     = '#ff5454'
+green   = '#54ff54'
+yellow  = '#ffff54'
+blue    = '#5454ff'
+magenta = '#ff54ff'
+cyan    = '#54ffff'
+white   = '#ffffff'
 
-# Dim colors
 [colors.dim]
-black = '#100F0F'
-red = '#AF3029'
-green = '#66800B'
-yellow = '#AD8301'
-blue = '#205EA6'
-magenta = '#A02F6F'
-cyan = '#24837B'
-white = '#FFFCF0'
+black   = '#000000'
+red     = '#b21818'
+green   = '#18b218'
+yellow  = '#b26818'
+blue    = '#1818b2'
+magenta = '#b218b2'
+cyan    = '#18b2b2'
+white   = '#b2b2b2'
 
 [cursor]
 thickness = 0.15
