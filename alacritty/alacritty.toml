@@ -67,15 +67,15 @@ TERM = "alacritty"
 size = 9
 
 [font.bold]
-family = "Terminus Font"
+family = "Terminus"
 style = "bold"
 
 [font.italic]
-family = "Terminus Font"
+family = "Terminus"
 style = "italic"
 
 [font.normal]
-family = "Terminus Font"
+family = "Terminus"
 style = "regular"
 
 [[keyboard.bindings]]
