@@ -16,15 +16,15 @@ TERM = "alacritty"
 size = 11
 
 [font.bold]
-family = "Terminus"
+family = "IBM Plex Mono"
 style = "bold"
 
 [font.italic]
-family = "Terminus"
+family = "IBM Plex Mono"
 style = "italic"
 
 [font.normal]
-family = "Terminus"
+family = "IB Plex Mono"
 style = "regular"
 
 [[keyboard.bindings]]
