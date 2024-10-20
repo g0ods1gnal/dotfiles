@@ -3,7 +3,7 @@
 BASE=/home/$USER
 
 # Alacritty
-ln -sf alacritty/alacritt.toml $BASE/.config/alacritty/alacritty.toml
+ln -sf alacritty/alacritty.toml $BASE/.config/alacritty/alacritty.toml
 # Dunst
 #ln -sf dunst/dunstrc $BASE/.config/dunst/dunstrc
 # git
