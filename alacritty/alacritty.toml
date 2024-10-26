@@ -1,34 +1,31 @@
-live_config_reload = true
-working_directory = "None"
-
-# Colors (Blood Moon)
+# Colors (Gruvbox Material Hard Dark)
 
 # Default colors
 [colors.primary]
-background = '#10100E'
-foreground = '#C6C6C4'
+background = '#1d2021'
+foreground = '#d4be98'
 
 # Normal colors
 [colors.normal]
-black   = '#10100E'
-red     = '#C40233'
-green   = '#009F6B'
-yellow  = '#FFD700'
-blue    = '#0087BD'
-magenta = '#9A4EAE'
-cyan    = '#20B2AA'
-white   = '#C6C6C4'
+black   = '#32302f'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
 
-# Bright colors
+# Bright colors (same as normal colors)
 [colors.bright]
-black   = '#696969'
-red     = '#FF2400'
-green   = '#03C03C'
-yellow  = '#FDFF00'
-blue    = '#007FFF'
-magenta = '#FF1493'
-cyan    = '#00CCCC'
-white   = '#FFFAFA'
+black   = '#32302f'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
 
 [cursor]
 thickness = 0.15
@@ -45,15 +42,15 @@ TERM = "alacritty"
 size = 10
 
 [font.bold]
-family = "IBM Plex Mono"
+family = "BlexMono Nerd Font"
 style = "bold"
 
 [font.italic]
-family = "IBM Plex Mono"
+family = "BlexMono Nerd Font"
 style = "italic"
 
 [font.normal]
-family = "IBM Plex Mono"
+family = "Blex  Mono Nerd Font"
 style = "regular"
 
 [[keyboard.bindings]]
@@ -87,7 +84,7 @@ multiplier = 2
 [selection]
 save_to_clipboard = false
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 
 [window]
