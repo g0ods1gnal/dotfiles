@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VM_IP="192.168.1.106"  # IP of the Ubuntu VM
+VM_IP="192.168.1.160"  # IP of the Ubuntu VM
 
 ROUTE_BACKUP="/tmp/default_routes_backup"
 

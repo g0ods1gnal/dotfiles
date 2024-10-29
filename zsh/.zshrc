@@ -6,6 +6,7 @@ if [ "$TMUX" = "" ]; then tmux; fi
 # ~~~~~~~~~~~~~~ SSH ~~~~~~~~~~~~~~~~
 eval "$(ssh-agent -s)" > /dev/null
 ssh-add ~/.ssh/g0ods1gnal-git > /dev/null 2>&1
+ssh-add ~/.ssh/qxz3mru-git > /dev/null 2>&1
 
 # ~~~~~~~ Environment Variables ~~~~~
 set -o vi
@@ -70,6 +71,7 @@ alias k='kubectl'
 alias kc='kubectx'
 alias kn='kubens'
 
+alias bmw='/home/$USER/.local/bin/bmwaws login'
 
 # ~~~~~~~~~~~~~~~~~~~ Completion ~~~~~~~~~~~~~~
 
